@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #292828;
+    color: white;
+    font-size: 400%;
+}
+
+header
+{
+    background-color: #1C1C1C;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: px;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.capa
+{
+    align-items: flex-start;
+    padding: 20px;
+}
+
+
+.info
+{
+    font-size: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+}
+
+.sobre
+{
+font-size: 30px;
+font-family: "Bebas Neue", sans-serif;
+}
+
+form button
+{
+    background-color: #1C1C1C;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover 
+{
+    background-color: #1C1C1C;
+}
+
+input:focus, textarea:focus
+{
+    outline-color:#1C1C1C
+}
+
+form input, form textarea, form button
+{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+form textarea
+{
+    resize: none;
+    height: 180px;
+}
+
+footer
+{
+    background-color: #1C1C1C;
+
+}
